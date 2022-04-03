@@ -45,7 +45,7 @@
     max-width: 300px;    
 }
 
-.game-container .title{
+.tile{
     border: 3px solid whitesmoke;
     min-width: 100px;
     min-height: 100px;
