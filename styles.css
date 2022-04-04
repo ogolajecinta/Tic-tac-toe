@@ -30,12 +30,12 @@
     display: none;
 } 
 .container{
-    background-color: #14bdac;
-    /**max-width: 660px;
+    /*background-color: #14bdac;
+    max-width: 660px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;**/
+    margin: auto; */
 }
 .game-container{
     margin: 0 auto;

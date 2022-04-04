@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded',() =>{
     
     function handleResultValidation(){
         let roundWon = false;
-        for(let i=0;i <= 7, i++){
+        for(let i=0;i <= 7; i++){
             const winCondition = possibleWins[i];
             const a = board[winCondition[0]];
             const b = board[winCondition[1]];
@@ -38,15 +38,13 @@ window.addEventListener('DOMContentLoaded',() =>{
 
             if (a === '' || b===''|| c===''){
                 continue;
-            }
+            } 
             if(a===b && b===c){
                 roundWon = true;
                 break;
 
             }
         }
-
-    }
 
         if (roundWon){
             announce(currentPlayer === 'X' ? PLAYERX_WON : PLAYERO_WON);
@@ -57,6 +55,7 @@ window.addEventListener('DOMContentLoaded',() =>{
         if (!board.includes('')){
             announce(TIE);
         }
+    }
 
         
     const announce = (type) => {
