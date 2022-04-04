@@ -112,8 +112,8 @@ window.addEventListener('DOMContentLoaded',() =>{
             changePlayer();
         }
 
-        tiles.forEach ( tile =>{
-            tile.innerText('');
+        tiles.forEach ( tile => {
+            tile.innerText = ('');
             tile.classList.remove('playerX');
             tile.classList.remove('playerO');
 
